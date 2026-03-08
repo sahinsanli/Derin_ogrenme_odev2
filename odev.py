@@ -30,7 +30,7 @@ w2 = np.random.randn(hidden_size, output_size)
 b2 = np.zeros((1, output_size))
 
 lr = 0.1
-epochs = 10000
+epochs = 100000
 
 # Eğitim Döngüsü (Tamamen sessiz çalışır)
 for epoch in range(epochs):
